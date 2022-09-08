@@ -1,7 +1,7 @@
-db.produtos.find({},{
+db.produtos.find({}, {
   nome: true,
   vendidos: true,
-  _id: false
+  _id: false,
 }).sort({
-  vendidos: -1
-}).limit(1)
+  vendidos: -1,
+}).limit(1);
