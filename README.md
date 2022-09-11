@@ -1,16 +1,20 @@
-# 🚧 README em construção 🚧
+# Projeto Mongodb Commerce
 
-<!-- Olá, Tryber!
+32 duas queries em mongoDB desenvolvidas durante os meus estudos em mongo.
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+# Como preparar o ambiente para testar as queries 
 
-É essencial que você preencha esse documento por conta própria, ok?
+### 1- Entre na pasta /assets/produtos e extraia o arquivo produtos.tar.gz na raiz do projeto
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+<br>
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+### 2- Abra o terminal na raiz do projeto 
 
--->
+<br>
+
+### 3- Use o mongoexport para restaurar o banco
+
+Comando: 
+~~~
+mongorestore --maintainInsertionOrder --db=commerce produtos.bson
+~~~
