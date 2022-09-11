@@ -1,3 +1,5 @@
+// Adiciona o campo ultimaModificacao ao Big Mac com o valor da data atual
+
 db.produtos.updateOne({
   nome: "Big Mac",
 }, {

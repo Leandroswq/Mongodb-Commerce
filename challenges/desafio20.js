@@ -1,3 +1,5 @@
+// Remove o primeiro ingrediente do produto "Quarteirão com Queijo"
+
 db.produtos.updateOne({
   nome: "Quarteirão com Queijo",
 }, {

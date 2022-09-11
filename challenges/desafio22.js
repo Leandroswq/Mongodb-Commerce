@@ -1,3 +1,5 @@
+// Adiciona a quantidade de vendas dos produtos por dia
+
 db.produtos.updateMany({}, {
   $set: {
     vendasPorDia: [0, 0, 0, 0, 0, 0, 0],

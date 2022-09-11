@@ -1,3 +1,5 @@
+// Remove o ultimo ingrediente do produto "Cheddar McMelt"
+
 db.produtos.updateOne({
   nome: "Cheddar McMelt",
 }, {

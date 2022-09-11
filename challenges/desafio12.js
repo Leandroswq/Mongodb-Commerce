@@ -1,3 +1,6 @@
+// Adiciona o ingrediente aos lanches diferentes de "McChicken" e retorna
+// todos os lanches
+
 db.produtos.updateMany({
   nome: { $not: { $eq: "McChicken" } },
 },

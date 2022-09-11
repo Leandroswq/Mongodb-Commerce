@@ -1,3 +1,5 @@
+//  Renomeia o campo "descricao" dos produtos para "descricaoSite"
+
 db.produtos.updateMany({},
   {
     $rename: {

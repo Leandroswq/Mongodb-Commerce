@@ -1,3 +1,6 @@
+// Adiciona a tag "contém sódio" aos produtos que possuem um percentual
+// de sódio entre 20 e 40
+
 db.produtos.updateMany({
   valoresNutricionais: {
     $elemMatch: {

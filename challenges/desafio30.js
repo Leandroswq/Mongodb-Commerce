@@ -1,3 +1,5 @@
+//  Remove os campos curtidas do produto "Big Mac"
+
 db.produtos.updateMany({
   nome: "Big Mac",
 },

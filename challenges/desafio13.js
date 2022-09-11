@@ -1,3 +1,6 @@
+// Adiciona o campo criado com o valor "Ronald McDonald" para todos os
+// produtos
+
 db.produtos.updateMany({},
   {
    $set: {

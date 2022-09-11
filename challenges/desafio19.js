@@ -1,3 +1,5 @@
+// Remove o ingrediente cebola de todos os produtos
+
 db.produtos.find();
 
 db.produtos.updateMany({}, {

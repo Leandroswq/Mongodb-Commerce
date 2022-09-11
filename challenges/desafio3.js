@@ -1,3 +1,5 @@
+// Retorna o produto mais vendido
+
 db.produtos.find({}, {
   nome: true,
   vendidos: true,

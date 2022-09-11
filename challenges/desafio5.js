@@ -1,3 +1,6 @@
+// Retorna os nomes, curtidas e vendidos dos lanches que tem 36 curtidas ou
+// 85 produtos
+
 db.produtos.find({
   $or: 
     [

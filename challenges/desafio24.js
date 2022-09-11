@@ -1,3 +1,5 @@
+// Ordena o campo valoresNutricionais dos produtos em ordem decrescente
+
 db.produtos.updateMany({}, {
   $push: {
     valoresNutricionais: {

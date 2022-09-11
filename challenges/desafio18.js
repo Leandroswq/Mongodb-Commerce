@@ -1,3 +1,5 @@
+// Adiciona bacon aos ingredientes do Bic Mac e Quarteirão com Queijo
+
 db.produtos.updateMany({
   nome: {
     $in: ["Big Mac",
